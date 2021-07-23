@@ -8,14 +8,24 @@ import './App.css';
 
 const App = () => {
  
+return(
 
-//return react.createElement("h1",null,"I dont use JSX");//without JSX
-return <div>
-  <h1>Welcom To React World!</h1>
-  
-  <h2 onClick={()=> alert("You clicke")}>My First react component</h2>
-  </div>;//Using JSX
+<div className="contact-card">
+<img src="https://via.placeholder.com/150" alt="profile"></img>
 
+
+<div className="">
+<p>Name:Nishi</p>
+
+<p>Email Address:mannan.nishi@gmail.com</p>
+<p>Age:30</p>
+
+</div>
+
+</div>
+
+
+);
   
 }
 
